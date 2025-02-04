@@ -15,30 +15,13 @@ const Navbar = () => (
           className='object-contain'
         />
       </Link>
-
-      {/* <Link href='/about' passHref>
-      <CustomButton
-      title="About"
-      btnType="button"
-      containerStyles="bg-primary-blue text-white hover:bg-primary-blue-hover hover:border-2 border-white rounded-full min-w-[130px]
-"
-      />
-      </Link> */}
-
-      {/* <Link href='/contact' passHref>
-      <CustomButton
-      title="Contact"
-      btnType="button"
-      containerStyles="bg-primary-blue text-white rounded-full min-w-[130px]"
-      />
-      </Link> */}
-
+      <Link href='/auth'>
       <CustomButton
         title='Sign in'
         btnType='button'
         containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]'
-        
       />
+      </Link>
     </nav>
   </header>
 );
