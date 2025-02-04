@@ -76,7 +76,7 @@ const Contact = (): JSX.Element => {
                   className="bg-white border border-gray-300 text-gray-800"
                 />
               </div>
-              
+
               {/* Textarea */}
               <Textarea
                 className="h-[200px] bg-white border border-gray-300 text-gray-800"
@@ -103,7 +103,9 @@ const Contact = (): JSX.Element => {
                     </div>
                     <div className="flex-1">
                       <p className="text-gray-500">{item.title}</p>
-                      <h3 className="text-xl text-gray-800">{item.description}</h3>
+                      <h3 className="text-xl text-gray-800">
+                        {item.description}
+                      </h3>
                     </div>
                   </li>
                 );

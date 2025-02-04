@@ -27,7 +27,7 @@ export default function AuthPage() {
     setEmail("");
     setPassword("");
 
-    router.push("/"); // Redirect to Dashboard
+    router.push("/"); // Redirect to home page
   };
 
   // Logout function

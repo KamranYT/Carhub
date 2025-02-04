@@ -17,17 +17,21 @@ const About: React.FC = () => {
         {/* Who We Are Section */}
         <section className="mb-10 flex flex-col md:flex-row items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-semibold mb-4 text-primary-blue">Who We Are</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-primary-blue">
+              Who We Are
+            </h2>
             <p className="text-gray-700 leading-7">
-              Welcome to <strong>Car Hub</strong>—your trusted partner for car rentals! We aim to make car rental
-              services convenient, reliable, and affordable for everyone. Whether you’re planning a
-              weekend getaway, a business trip, or just need a temporary vehicle, Car Hub offers a
-              hassle-free booking experience with a diverse selection of cars to meet your needs.
+              Welcome to <strong>Car Hub</strong>—your trusted partner for car
+              rentals! We aim to make car rental services convenient, reliable,
+              and affordable for everyone. Whether you’re planning a weekend
+              getaway, a business trip, or just need a temporary vehicle, Car
+              Hub offers a hassle-free booking experience with a diverse
+              selection of cars to meet your needs.
             </p>
           </div>
           <div className="flex-1">
             <Image
-              src="/who.png" 
+              src="/who.png"
               alt="Who We Are"
               width={400}
               height={300}
@@ -39,17 +43,20 @@ const About: React.FC = () => {
         {/* Our Mission Section */}
         <section className="mb-10 flex flex-col md:flex-row items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-semibold mb-4 text-primary-blue">Our Mission</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-primary-blue">
+              Our Mission
+            </h2>
             <p className="text-gray-700 leading-7">
-              At Car Hub, our mission is to revolutionize the car rental industry by making the process
-              seamless, transparent, and accessible to everyone. We are committed to providing
-              high-quality service, an easy booking process, and a wide range of vehicles to choose from
-              so that you can drive with peace of mind.
+              At Car Hub, our mission is to revolutionize the car rental
+              industry by making the process seamless, transparent, and
+              accessible to everyone. We are committed to providing high-quality
+              service, an easy booking process, and a wide range of vehicles to
+              choose from so that you can drive with peace of mind.
             </p>
           </div>
           <div className="flex-1">
             <Image
-              src="/mission1.png" 
+              src="/mission1.png"
               alt="Our Mission"
               width={450}
               height={300}
@@ -61,7 +68,9 @@ const About: React.FC = () => {
         {/* What We Offer Section */}
         <section className="mb-10 flex flex-col md:flex-row items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-semibold mb-4 text-primary-blue">What We Offer</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-primary-blue">
+              What We Offer
+            </h2>
             <ul className="list-disc list-inside text-gray-700 leading-7">
               <li>Easy online booking with real-time availability.</li>
               <li>A wide range of cars from economy to luxury models.</li>
@@ -72,7 +81,7 @@ const About: React.FC = () => {
           </div>
           <div className="flex-1">
             <Image
-              src="/offer1.png" 
+              src="/offer1.png"
               alt="What We Offer"
               width={400}
               height={300}
@@ -84,15 +93,18 @@ const About: React.FC = () => {
         {/* Why Choose Us Section */}
         <section className="mb-10 flex flex-col md:flex-row items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-semibold mb-4 text-primary-blue">Why Choose Us</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-primary-blue">
+              Why Choose Us
+            </h2>
             <p className="text-gray-700 leading-7">
-              Our customers are at the heart of everything we do. We strive to provide exceptional
-              customer service and prioritize your satisfaction.
+              Our customers are at the heart of everything we do. We strive to
+              provide exceptional customer service and prioritize your
+              satisfaction.
             </p>
           </div>
           <div className="flex-1">
             <Image
-              src="/why.png" 
+              src="/why.png"
               alt="Why Choose Us"
               width={400}
               height={300}
@@ -104,17 +116,31 @@ const About: React.FC = () => {
         {/* Our Values Section */}
         <section className="mb-10 flex flex-col md:flex-row items-center gap-6">
           <div className="flex-1">
-            <h2 className="text-2xl font-semibold mb-4 text-primary-blue">Our Values</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-primary-blue">
+              Our Values
+            </h2>
             <ul className="list-disc list-inside text-gray-700 leading-7">
-              <li><strong>Integrity</strong> - We operate with honesty and uphold ethical standards in every aspect of our business.</li>
-              <li><strong>Excellence</strong> - We are committed to providing high-quality service to every customer.</li>
-              <li><strong>Innovation</strong> - We constantly improve our services to meet the needs of a changing market.</li>
-              <li><strong>Sustainability</strong> - We are dedicated to environmentally responsible practices to protect our planet.</li>
+              <li>
+                <strong>Integrity</strong> - We operate with honesty and uphold
+                ethical standards in every aspect of our business.
+              </li>
+              <li>
+                <strong>Excellence</strong> - We are committed to providing
+                high-quality service to every customer.
+              </li>
+              <li>
+                <strong>Innovation</strong> - We constantly improve our services
+                to meet the needs of a changing market.
+              </li>
+              <li>
+                <strong>Sustainability</strong> - We are dedicated to
+                environmentally responsible practices to protect our planet.
+              </li>
             </ul>
           </div>
           <div className="flex-1">
             <Image
-              src="/values.png" 
+              src="/values.png"
               alt="Our Values"
               width={400}
               height={300}
@@ -128,4 +154,3 @@ const About: React.FC = () => {
 };
 
 export default About;
-

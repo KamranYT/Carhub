@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import  { CustomButton}  from "./CustomButton";
+import { CustomButton } from "./CustomButton";
 
 function Hero() {
   const handleScroll = () => {
@@ -40,7 +40,7 @@ function Hero() {
       </div>
     </div>
   );
-};
+}
 
 export default Hero;
 
